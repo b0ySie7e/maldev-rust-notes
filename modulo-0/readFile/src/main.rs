@@ -17,7 +17,7 @@ fn main() {
 
     for (i, line) in reader.lines().enumerate() {
         match line {
-            Ok(content) => println!("{}: {}", i + 1, content),
+            Ok(content) => println!("{}",content),
             Err(e) => eprintln!("Error al leer línea {}: {}", i + 1, e),
         }
     }

@@ -1,0 +1,10 @@
+[package]
+name = "Workspace-multi-crate"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+hostname = "0.4.2"
+
+[workspace]
+members = ["implant", "loader", "utils"]

@@ -1,7 +1,6 @@
 // **Walker de directorio recursivo** — Recorre `C:\Users\` listando todos los `.txt`, `.docx`, `.pdf` encontrados. Base de recolección de datos.
 
 use std::fs;
-use std::path::PathBuf;
 
 fn main() {
     let start_path = "C:\\Users";
